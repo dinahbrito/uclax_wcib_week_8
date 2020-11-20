@@ -1,0 +1,12 @@
+body .row {
+  background-color: yellow; }
+  body .row.hero-image {
+    background-color: #0cb3f8; }
+
+body .price {
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+  body .price.alt {
+    background-color: blue; }
