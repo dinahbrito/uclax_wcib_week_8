@@ -40,6 +40,9 @@ body {
       color: white; }
       body .price.alt ul {
         list-style-image: url("/images/greyokicon.png"); }
+      body .price.alt .btn-light {
+        padding-left: 45px;
+        padding-right: 45px; }
   body ul {
     list-style-position: inside;
     list-style-image: url("/images/okicon.png"); }
