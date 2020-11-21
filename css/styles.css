@@ -22,6 +22,7 @@ body {
   body .price {
     background-color: white;
     border-radius: 5px;
+    line-height: 200%;
     padding-top: 35px;
     padding-bottom: 47px; }
     body .price .btn {
