@@ -1,12 +1,45 @@
-body .row {
-  background-color: yellow; }
-  body .row.hero-image {
-    background-color: #0cb3f8; }
-
-body .price {
-  background-color: white;
-  border-radius: 5px;
-  padding-top: 20px;
-  padding-bottom: 10px; }
-  body .price.alt {
-    background-color: blue; }
+body {
+  font-family: 'Montserrat', sans-serif; }
+  body h3 {
+    font-weight: 600;
+    font-size: 48px; }
+  body ul {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 20px; }
+  body .row {
+    background-color: #222222;
+    padding-bottom: 50px; }
+    body .row.hero-image {
+      background-color: #0cb3f8; }
+    body .row.license {
+      color: white;
+      text-align: center;
+      padding-top: 55px; }
+      body .row.license p {
+        font-weight: 100;
+        font-size: 16px; }
+  body .price {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 47px; }
+    body .price .btn {
+      border-radius: 25px;
+      border-width: 2px;
+      border-color: #1b8bf9;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 10px;
+      color: black;
+      height: 40px;
+      padding-left: 25px;
+      padding-right: 25px; }
+    body .price.alt {
+      background-color: #1b8bf9;
+      color: white; }
+      body .price.alt ul {
+        list-style-image: url("/images/greyokicon.png"); }
+  body ul {
+    list-style-position: inside;
+    list-style-image: url("/images/okicon.png"); }

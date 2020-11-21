@@ -1,17 +1,63 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+
+h3 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+ul {
+  font-size: 14px;
+  font-weight: 200;
+  padding: 20px;
+}
   .row {
-    background-color: yellow;
+    background-color: #222222;
+    padding-bottom: 50px;
   &.hero-image {
     background-color: rgb(12, 179, 248);
   }
+  &.license {
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+
+    p{
+      font-weight: 100;
+      font-size: 16px;
+    }
   }
+  }
+
   .price {
     background-color: white;
     border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+
+    padding-top: 35px;
+    padding-bottom: 47px;
+    .btn {
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #1b8bf9;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
     &.alt {
-      background-color: blue;
+      background-color: #1b8bf9;
+      color: white;
+      ul {
+        list-style-image: url('/images/greyokicon.png');
+      }
     }
   }
+
+  ul {
+    list-style-position: inside;
+    list-style-image: url('/images/okicon.png');
+}
 }
