@@ -14,6 +14,8 @@ ul {
   .row {
     background-color: #222222;
     padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
   &.hero-image {
     background-color: rgb(12, 179, 248);
   }
@@ -35,6 +37,7 @@ ul {
     line-height: 200%;
     padding-top: 35px;
     padding-bottom: 47px;
+    max-width: 300px;
     .btn {
     border-radius: 25px;
     border-width: 2px;

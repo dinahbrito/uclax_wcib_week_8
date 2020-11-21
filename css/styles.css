@@ -9,7 +9,9 @@ body {
     padding: 20px; }
   body .row {
     background-color: #222222;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px; }
     body .row.hero-image {
       background-color: #0cb3f8; }
     body .row.license {
@@ -24,7 +26,8 @@ body {
     border-radius: 5px;
     line-height: 200%;
     padding-top: 35px;
-    padding-bottom: 47px; }
+    padding-bottom: 47px;
+    max-width: 300px; }
     body .price .btn {
       border-radius: 25px;
       border-width: 2px;
