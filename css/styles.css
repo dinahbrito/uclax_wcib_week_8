@@ -50,3 +50,15 @@ body {
   body ul {
     list-style-position: inside;
     list-style-image: url("/images/okicon.png"); }
+
+.jumbotron {
+  background-image: url("/images/cliffs.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white; }
+
+.navbar {
+  background-color: #0cb3f8;
+  padding-top: 57px; }

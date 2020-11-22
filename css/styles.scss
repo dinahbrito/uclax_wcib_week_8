@@ -68,3 +68,17 @@ ul {
     list-style-image: url('/images/okicon.png');
 }
 }
+
+.jumbotron {
+  background-image: url('/images/cliffs.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+
+}
+.navbar {
+  background-color: rgb(12, 179, 248);
+  padding-top: 57px;
+}
