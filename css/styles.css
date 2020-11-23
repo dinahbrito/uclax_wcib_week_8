@@ -43,13 +43,10 @@ ul {
   background-color: #0cb3f8;
   color: white; }
 
-/* Content Div styling */
+/* New Div styling */
 .row.new-content {
-  background-color: #f5f4f4;
-  padding-top: 60px; }
+  background-color: #f5f4f4; }
   .row.new-content p {
-    padding-top: 10px;
-    padding-bottom: 65px;
     color: #747474;
     font-weight: 100;
     line-height: normal; }
@@ -63,7 +60,6 @@ ul {
     font-size: 13px;
     line-height: 1.5;
     color: #747474;
-    padding-bottom: 50px;
     letter-spacing: 1px; }
 
 /* License Div styling */
