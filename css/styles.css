@@ -63,22 +63,23 @@ ul {
     letter-spacing: 1px; }
 
 /* License Div styling */
-.row {
+.background {
   background-color: #222222;
   padding-left: 75px;
   padding-right: 75px; }
-  .row.license {
-    color: white;
-    text-align: center;
-    padding-top: 55px; }
-    .row.license h2 {
-      margin-bottom: 20px;
-      color: white; }
-    .row.license p {
-      font-weight: 100;
-      font-size: 16px;
-      color: #bcc6d0;
-      margin-top: 20px; }
+
+.row.license {
+  color: white;
+  text-align: center;
+  padding-top: 55px; }
+  .row.license h2 {
+    margin-bottom: 20px;
+    color: white; }
+  .row.license p {
+    font-weight: 100;
+    font-size: 16px;
+    color: #bcc6d0;
+    margin-top: 20px; }
 
 /* Card styling */
 .price {

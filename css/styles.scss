@@ -68,7 +68,6 @@ ul {
     }
   }
 }
-
 .row {
   &.content {
     background-color: #f5f4f4;
@@ -80,15 +79,16 @@ ul {
       letter-spacing: 1px;
     }
   }
-
 }
 
 
 /* License Div styling */
+.background {
+  background-color: #222222;
+  padding-left: 75px;
+  padding-right: 75px;
+}
   .row {
-    background-color: #222222;
-    padding-left: 75px;
-    padding-right: 75px;
     &.license {
       color: white;
       text-align: center;
