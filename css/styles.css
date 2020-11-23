@@ -79,10 +79,6 @@ ul {
   align-items: center;
   justify-content: center;
   background-image: url("/images/cliffs.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: white;
   min-height: 344px; }
   .jumbotron p {
