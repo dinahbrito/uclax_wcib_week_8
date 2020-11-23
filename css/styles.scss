@@ -55,25 +55,25 @@ ul {
 }
 
 /* Content Div styling */
-.content {
-  &.text-center {
+.row {
+  &.new-content {
     background-color: #f5f4f4;
     padding-top: 60px;
-  }
-  p {
-    padding-top: 10px;
-    padding-bottom: 65px;
-    color: #747474;
-    font-weight: 100;
-    line-height: normal;
-  }
-  h2 {
-    color: #242526;
+    p {
+      padding-top: 10px;
+      padding-bottom: 65px;
+      color: #747474;
+      font-weight: 100;
+      line-height: normal;
+    }
+    h2 {
+      color: #242526;
+    }
   }
 }
+
 .row {
   &.content {
-    padding-bottom: 50px;
     background-color: #f5f4f4;
     p {
       font-weight:400;
@@ -99,6 +99,7 @@ ul {
       padding-top: 55px;
       h2{
         margin-bottom: 20px;
+        color: white;
       }
       p{
         font-weight: 100;

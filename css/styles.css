@@ -44,22 +44,19 @@ ul {
   color: white; }
 
 /* Content Div styling */
-.content.text-center {
+.row.new-content {
   background-color: #f5f4f4;
   padding-top: 60px; }
-
-.content p {
-  padding-top: 10px;
-  padding-bottom: 65px;
-  color: #747474;
-  font-weight: 100;
-  line-height: normal; }
-
-.content h2 {
-  color: #242526; }
+  .row.new-content p {
+    padding-top: 10px;
+    padding-bottom: 65px;
+    color: #747474;
+    font-weight: 100;
+    line-height: normal; }
+  .row.new-content h2 {
+    color: #242526; }
 
 .row.content {
-  padding-bottom: 50px;
   background-color: #f5f4f4; }
   .row.content p {
     font-weight: 400;
@@ -79,7 +76,8 @@ ul {
     text-align: center;
     padding-top: 55px; }
     .row.license h2 {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      color: white; }
     .row.license p {
       font-weight: 100;
       font-size: 16px;
@@ -99,7 +97,7 @@ ul {
   max-height: 440px; }
   .price ul {
     list-style-position: inside;
-    list-style-image: url("./images/okicon.png"); }
+    list-style-image: url("../images/okicon.png"); }
   .price .btn {
     border-radius: 25px;
     border-width: 2px;
@@ -115,7 +113,7 @@ ul {
     background-color: #1b8bf9;
     color: white; }
     .price.alt ul {
-      list-style-image: url("./images/greyokicon.png"); }
+      list-style-image: url("../images/greyokicon.png"); }
     .price.alt .btn-light {
       padding-left: 45px;
       padding-right: 45px; }
@@ -128,7 +126,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/cliffs.png");
+  background-image: url("../images/cliffs.png");
   color: white;
   min-height: 344px; }
   .jumbotron p {
