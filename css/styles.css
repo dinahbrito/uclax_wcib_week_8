@@ -1,63 +1,63 @@
 body {
   font-family: 'Montserrat', sans-serif; }
-  body h3 {
-    font-weight: 600;
-    font-size: 48px; }
-  body ul {
-    font-size: 14px;
-    font-weight: 200;
-    padding: 20px; }
-  body .row {
-    background-color: #222222;
-    padding-bottom: 50px;
-    padding-left: 75px;
-    padding-right: 75px; }
-    body .row.hero-image {
-      background-color: #0cb3f8; }
-    body .row.license {
-      color: white;
-      text-align: center;
-      padding-top: 55px; }
-      body .row.license p {
-        font-weight: 100;
-        font-size: 16px; }
-  body .price {
-    background-color: white;
-    border-radius: 5px;
-    line-height: 200%;
-    padding-top: 35px;
-    padding-bottom: 47px;
-    max-width: 300px; }
-    body .price .btn {
-      border-radius: 25px;
-      border-width: 2px;
-      border-color: #1b8bf9;
-      letter-spacing: 2px;
-      font-weight: 600;
-      font-size: 10px;
-      color: black;
-      height: 40px;
-      padding-left: 25px;
-      padding-right: 25px; }
-    body .price.alt {
-      background-color: #1b8bf9;
-      color: white; }
-      body .price.alt ul {
-        list-style-image: url("/images/greyokicon.png"); }
-      body .price.alt .btn-light {
-        padding-left: 45px;
-        padding-right: 45px; }
-  body ul {
+
+h3 {
+  font-weight: 600;
+  font-size: 48px; }
+
+ul {
+  font-size: 14px;
+  font-weight: 200;
+  padding: 20px; }
+
+/* Hero-Image styling */
+.row.hero-image {
+  background-color: #0cb3f8; }
+
+/* License styling */
+.row {
+  background-color: #222222;
+  padding-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px; }
+  .row.license {
+    color: white;
+    text-align: center;
+    padding-top: 55px; }
+    .row.license p {
+      font-weight: 100;
+      font-size: 16px; }
+
+/* Card styling */
+.price {
+  background-color: white;
+  border-radius: 5px;
+  line-height: 200%;
+  padding-top: 35px;
+  padding-bottom: 47px;
+  max-width: 300px; }
+  .price ul {
     list-style-position: inside;
     list-style-image: url("/images/okicon.png"); }
-
-.jumbotron {
-  background-image: url("/images/cliffs.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white; }
+  .price .btn {
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #1b8bf9;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px; }
+  .price.alt {
+    background-color: #1b8bf9;
+    color: white; }
+    .price.alt ul {
+      list-style-image: url("/images/greyokicon.png"); }
+    .price.alt .btn-light {
+      padding-left: 45px;
+      padding-right: 45px; }
 
 /* Navbar styling */
 .bg-custom {
@@ -67,3 +67,14 @@ body {
   padding-top: 55px !important;
   font-size: 12px;
   font-weight: 600; }
+  .bg-custom img {
+    margin-right: 10px; }
+
+/* Jumbotron styling */
+.jumbotron {
+  background-image: url("/images/cliffs.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white; }

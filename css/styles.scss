@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-
+}
 h3 {
   font-weight: 600;
   font-size: 48px;
@@ -11,26 +11,33 @@ ul {
   font-weight: 200;
   padding: 20px;
 }
+
+/* Hero-Image styling */
+.row {
+  &.hero-image {
+    background-color: rgb(12, 179, 248);
+  }
+}
+
+
+/* License styling */
   .row {
     background-color: #222222;
     padding-bottom: 50px;
     padding-left: 75px;
     padding-right: 75px;
-  &.hero-image {
-    background-color: rgb(12, 179, 248);
-  }
-  &.license {
-    color: white;
-    text-align: center;
-    padding-top: 55px;
-
-    p{
-      font-weight: 100;
-      font-size: 16px;
+    &.license {
+      color: white;
+      text-align: center;
+      padding-top: 55px;
+      p{
+        font-weight: 100;
+        font-size: 16px;
+      }
     }
   }
-  }
 
+/* Card styling */
   .price {
     background-color: white;
     border-radius: 5px;
@@ -38,6 +45,10 @@ ul {
     padding-top: 35px;
     padding-bottom: 47px;
     max-width: 300px;
+    ul {
+      list-style-position: inside;
+      list-style-image: url('/images/okicon.png');
+  }
     .btn {
     border-radius: 25px;
     border-width: 2px;
@@ -63,22 +74,6 @@ ul {
     }
   }
 
-  ul {
-    list-style-position: inside;
-    list-style-image: url('/images/okicon.png');
-}
-}
-
-.jumbotron {
-  background-image: url('/images/cliffs.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-
-}
-
 /* Navbar styling */
 .bg-custom {
   background-color: rgb(12, 179, 248);
@@ -87,4 +82,17 @@ ul {
   padding-top: 55px !important;
   font-size: 12px;
   font-weight: 600;
+  img {
+    margin-right: 10px;
+  }
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  background-image: url('/images/cliffs.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
 }
