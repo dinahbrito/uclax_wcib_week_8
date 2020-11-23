@@ -53,7 +53,20 @@ ul {
     color: white;
   }
 }
-
+.col-md-4 {
+text-align: right;
+}
+.pull-right {
+margin: 0 0 0 auto;
+padding-right: 85px;
+}
+.col-md-8 {
+  padding-left: 95px;
+  padding-top: 110px;
+  p{
+    max-width: 350px;
+  }
+}
 /* New Div styling */
 .row {
   &.new-content {
@@ -85,6 +98,8 @@ ul {
 /* License Div styling */
 .background {
   background-color: #222222;
+  padding-left: 75px;
+  padding-right: 75px;
 }
   .row {
     &.license {
@@ -161,3 +176,9 @@ ul {
     font-weight: 100;
   }
 }
+input {
+  color: white;
+  background-color:rgba(146,146,146,0.3) !important;
+  border:none !important;
+
+    }
