@@ -2,13 +2,24 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 48px; }
 
 ul {
   font-size: 14px;
   font-weight: 200;
   padding: 20px; }
+
+/* Navbar styling */
+.bg-custom {
+  background-color: #0cb3f8;
+  color: white;
+  margin-bottom: 0 !important;
+  padding-top: 55px !important;
+  font-size: 12px;
+  font-weight: 700; }
+  .bg-custom img {
+    margin-right: 10px; }
 
 /* Hero-Image styling */
 .row.hero-image {
@@ -17,16 +28,21 @@ ul {
 /* License Div styling */
 .row {
   background-color: #222222;
-  padding-bottom: 50px;
   padding-left: 75px;
   padding-right: 75px; }
   .row.license {
     color: white;
     text-align: center;
     padding-top: 55px; }
+    .row.license h4 {
+      margin-bottom: 20px;
+      font-size: 44px;
+      font-weight: 600; }
     .row.license p {
       font-weight: 100;
-      font-size: 16px; }
+      font-size: 16px;
+      color: #bcc6d0;
+      margin-top: 20px; }
 
 /* Card styling */
 .price {
@@ -35,7 +51,10 @@ ul {
   line-height: 200%;
   padding-top: 35px;
   padding-bottom: 47px;
-  max-width: 300px; }
+  max-width: 300px;
+  margin-top: 65px;
+  margin-bottom: 108px;
+  max-height: 440px; }
   .price ul {
     list-style-position: inside;
     list-style-image: url("/images/okicon.png"); }
@@ -58,17 +77,6 @@ ul {
     .price.alt .btn-light {
       padding-left: 45px;
       padding-right: 45px; }
-
-/* Navbar styling */
-.bg-custom {
-  background-color: #0cb3f8;
-  color: white;
-  margin-bottom: 0 !important;
-  padding-top: 55px !important;
-  font-size: 12px;
-  font-weight: 600; }
-  .bg-custom img {
-    margin-right: 10px; }
 
 /* Jumbotron styling */
 .jumbotron {

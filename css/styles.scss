@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 48px;
 }
 
@@ -10,6 +10,19 @@ ul {
   font-size: 14px;
   font-weight: 200;
   padding: 20px;
+}
+
+/* Navbar styling */
+.bg-custom {
+  background-color: rgb(12, 179, 248);
+  color: white;
+  margin-bottom: 0 !important;
+  padding-top: 55px !important;
+  font-size: 12px;
+  font-weight: 700;
+  img {
+    margin-right: 10px;
+  }
 }
 
 /* Hero-Image styling */
@@ -23,16 +36,22 @@ ul {
 /* License Div styling */
   .row {
     background-color: #222222;
-    padding-bottom: 50px;
     padding-left: 75px;
     padding-right: 75px;
     &.license {
       color: white;
       text-align: center;
       padding-top: 55px;
+      h4{
+        margin-bottom: 20px;
+        font-size: 44px;
+        font-weight: 600;
+      }
       p{
         font-weight: 100;
         font-size: 16px;
+        color: #bcc6d0;
+        margin-top: 20px;
       }
     }
   }
@@ -45,6 +64,9 @@ ul {
     padding-top: 35px;
     padding-bottom: 47px;
     max-width: 300px;
+    margin-top: 65px;
+    margin-bottom: 108px;
+    max-height: 440px;
     ul {
       list-style-position: inside;
       list-style-image: url('/images/okicon.png');
@@ -74,18 +96,6 @@ ul {
     }
   }
 
-/* Navbar styling */
-.bg-custom {
-  background-color: rgb(12, 179, 248);
-  color: white;
-  margin-bottom: 0 !important;
-  padding-top: 55px !important;
-  font-size: 12px;
-  font-weight: 600;
-  img {
-    margin-right: 10px;
-  }
-}
 
 /* Jumbotron styling */
 .jumbotron {
