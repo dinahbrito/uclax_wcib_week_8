@@ -68,9 +68,13 @@ padding-right: 85px;
   }
 }
 /* New Div styling */
+.new {
+  padding-left: 75px;
+  padding-right: 75px;
+  background-color: #f5f4f4;
+}
 .row {
   &.new-content {
-    background-color: #f5f4f4;
     p {
       color: #747474;
       font-weight: 100;

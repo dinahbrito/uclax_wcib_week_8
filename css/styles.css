@@ -57,14 +57,18 @@ ul {
     max-width: 350px; }
 
 /* New Div styling */
-.row.new-content {
+.new {
+  padding-left: 75px;
+  padding-right: 75px;
   background-color: #f5f4f4; }
-  .row.new-content p {
-    color: #747474;
-    font-weight: 100;
-    line-height: normal; }
-  .row.new-content h2 {
-    color: #242526; }
+
+.row.new-content p {
+  color: #747474;
+  font-weight: 100;
+  line-height: normal; }
+
+.row.new-content h2 {
+  color: #242526; }
 
 .row.content {
   background-color: #f5f4f4; }
