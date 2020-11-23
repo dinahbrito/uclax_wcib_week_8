@@ -78,7 +78,13 @@ ul {
   color: white;
 
 }
-.navbar {
+
+/* Navbar styling */
+.bg-custom {
   background-color: rgb(12, 179, 248);
-  padding-top: 57px;
+  color: white;
+  margin-bottom: 0 !important;
+  padding-top: 55px !important;
+  font-size: 12px;
+  font-weight: 600;
 }

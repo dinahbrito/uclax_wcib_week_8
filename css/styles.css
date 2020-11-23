@@ -59,6 +59,11 @@ body {
   background-size: cover;
   color: white; }
 
-.navbar {
+/* Navbar styling */
+.bg-custom {
   background-color: #0cb3f8;
-  padding-top: 57px; }
+  color: white;
+  margin-bottom: 0 !important;
+  padding-top: 55px !important;
+  font-size: 12px;
+  font-weight: 600; }
