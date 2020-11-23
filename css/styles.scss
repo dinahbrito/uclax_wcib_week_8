@@ -1,9 +1,26 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-h3 {
+
+h1 {
+  font-size: 70px;
   font-weight: 700;
+}
+h2{
+  font-size: 44px;
+  font-weight: 600;
+}
+
+h3 {
   font-size: 48px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #242526;
+  letter-spacing: 2px;
 }
 
 ul {
@@ -31,11 +48,43 @@ ul {
 
 /* Hero-Image styling */
 .row {
-
   &.hero-image {
     background-color: rgb(12, 179, 248);
-
+    color: white;
   }
+}
+
+/* Content Div styling */
+.content {
+  &.text-center {
+    background-color: #f5f4f4;
+    padding-top: 60px;
+  }
+  p {
+    padding-top: 10px;
+    padding-bottom: 65px;
+    color: #747474;
+    font-weight: 100;
+    line-height: normal;
+  }
+  h2 {
+    color: #242526;
+  }
+}
+.row {
+  &.content {
+    padding-bottom: 50px;
+    background-color: #f5f4f4;
+    p {
+      font-weight:400;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #747474;
+      padding-bottom: 50px;
+      letter-spacing: 1px;
+    }
+  }
+
 }
 
 
@@ -48,10 +97,8 @@ ul {
       color: white;
       text-align: center;
       padding-top: 55px;
-      h4{
+      h2{
         margin-bottom: 20px;
-        font-size: 44px;
-        font-weight: 600;
       }
       p{
         font-weight: 100;

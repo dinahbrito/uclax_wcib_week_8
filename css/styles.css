@@ -1,9 +1,23 @@
 body {
   font-family: 'Montserrat', sans-serif; }
 
+h1 {
+  font-size: 70px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 44px;
+  font-weight: 600; }
+
 h3 {
+  font-size: 48px;
+  font-weight: 700; }
+
+h4 {
+  font-size: 13px;
   font-weight: 700;
-  font-size: 48px; }
+  color: #242526;
+  letter-spacing: 2px; }
 
 ul {
   font-size: 14px;
@@ -26,7 +40,34 @@ ul {
 
 /* Hero-Image styling */
 .row.hero-image {
-  background-color: #0cb3f8; }
+  background-color: #0cb3f8;
+  color: white; }
+
+/* Content Div styling */
+.content.text-center {
+  background-color: #f5f4f4;
+  padding-top: 60px; }
+
+.content p {
+  padding-top: 10px;
+  padding-bottom: 65px;
+  color: #747474;
+  font-weight: 100;
+  line-height: normal; }
+
+.content h2 {
+  color: #242526; }
+
+.row.content {
+  padding-bottom: 50px;
+  background-color: #f5f4f4; }
+  .row.content p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #747474;
+    padding-bottom: 50px;
+    letter-spacing: 1px; }
 
 /* License Div styling */
 .row {
@@ -37,10 +78,8 @@ ul {
     color: white;
     text-align: center;
     padding-top: 55px; }
-    .row.license h4 {
-      margin-bottom: 20px;
-      font-size: 44px;
-      font-weight: 600; }
+    .row.license h2 {
+      margin-bottom: 20px; }
     .row.license p {
       font-weight: 100;
       font-size: 16px;
