@@ -99,7 +99,7 @@ ul {
   max-height: 440px; }
   .price ul {
     list-style-position: inside;
-    list-style-image: url("/images/okicon.png"); }
+    list-style-image: url("./images/okicon.png"); }
   .price .btn {
     border-radius: 25px;
     border-width: 2px;
@@ -115,7 +115,7 @@ ul {
     background-color: #1b8bf9;
     color: white; }
     .price.alt ul {
-      list-style-image: url("/images/greyokicon.png"); }
+      list-style-image: url("./images/greyokicon.png"); }
     .price.alt .btn-light {
       padding-left: 45px;
       padding-right: 45px; }
@@ -128,7 +128,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/images/cliffs.png");
+  background-image: url("./images/cliffs.png");
   color: white;
   min-height: 344px; }
   .jumbotron p {
