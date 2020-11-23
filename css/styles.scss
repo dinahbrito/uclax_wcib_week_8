@@ -20,7 +20,7 @@ ul {
 }
 
 
-/* License styling */
+/* License Div styling */
   .row {
     background-color: #222222;
     padding-bottom: 50px;
@@ -89,10 +89,21 @@ ul {
 
 /* Jumbotron styling */
 .jumbotron {
+  box-shadow: inset 0 0 0 100vw rgba(20,18,18,0.5);
+  background: var(--image-url) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url('/images/cliffs.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
+  min-height: 344px;
+  p{
+    font-size: 14px;
+    font-weight: 100;
+  }
 }
