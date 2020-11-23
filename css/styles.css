@@ -20,6 +20,9 @@ ul {
   font-weight: 700; }
   .bg-custom img {
     margin-right: 10px; }
+  .bg-custom h5 {
+    font-weight: 600;
+    font-size: 16px; }
 
 /* Hero-Image styling */
 .row.hero-image {
