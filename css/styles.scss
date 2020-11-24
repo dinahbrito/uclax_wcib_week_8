@@ -67,16 +67,15 @@ ul {
     text-decoration: none;
   }
   &.active{
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: 2px;
-    text-decoration-color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
     &:hover {
       color: white !important;
-      text-decoration: none;
+      border: none;
     }
   }
 }
+
 
 /* Hero-Image styling */
 .row {
