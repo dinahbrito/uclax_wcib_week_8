@@ -62,13 +62,16 @@ ul {
   &:hover {
     color: white !important;
     text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: white;
   }
   &.active{
-    border-bottom: 2px solid white;
+    text-decoration: underline;
+    text-decoration-color: white;
     padding-bottom: 2px;
     &:hover {
       color: white !important;
-      border: none;
+      text-decoration: none;
     }
   }
 }
