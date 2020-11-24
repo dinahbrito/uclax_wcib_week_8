@@ -35,8 +35,8 @@ ul {
     padding-right: 5rem !important;
 }
 .px-5 {
-  padding-right: 6rem !important;
-  padding-left: 6rem !important;
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
 }
 /* Navbar styling */
 .bg-custom {
@@ -54,10 +54,7 @@ ul {
     font-size: 16px;
   }
 }
-.px-sm-4{
-   padding-left: 5rem !important;
-    padding-right: 5rem !important;
-}
+
 .pb-5{
     margin-bottom: 4rem !important;
 }
@@ -68,7 +65,7 @@ ul {
   }
   &.active{
     border-bottom: 2px solid white;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
     &:hover {
       color: white !important;
       border: none;
