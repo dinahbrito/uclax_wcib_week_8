@@ -139,10 +139,8 @@ ul {
   box-shadow: 4px 7px 16px 0px rgba(27, 139, 249, 0.4);
   line-height: 0; }
 
-/* New Div styling */
+/* New Big Thing Div styling */
 .new {
-  padding-left: 145px;
-  padding-right: 145px;
   background-color: #f5f4f4; }
 
 .row.new-content p {
