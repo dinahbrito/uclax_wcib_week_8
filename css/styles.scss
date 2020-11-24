@@ -68,7 +68,7 @@ ul {
   &.active{
     text-decoration: underline;
     text-decoration-color: white;
-    te
+    color: white !important;
     &:hover {
       color: white !important;
       text-decoration: none;
