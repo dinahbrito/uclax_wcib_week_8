@@ -64,10 +64,7 @@ ul {
 .text-light {
   &:hover {
     color: white !important;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: 2px;
-    text-decoration-color: white;
+    text-decoration: none;
   }
   &.active{
     text-decoration: underline;
