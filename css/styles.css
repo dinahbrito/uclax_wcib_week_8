@@ -217,38 +217,26 @@ ul {
 
 /* Jumbotron styling */
 .jumbotron {
-  position: relative;
-  background: url(../images/cliffs.png);
+  box-shadow: inset 0 0 0 100vw rgba(20, 18, 18, 0.5);
+  background: var(--image-url) center center no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/cliffs.png");
   color: white; }
-
-.jumbotron > .overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(20, 18, 18, 0.5);
-  z-index: 3; }
-
-.jumbotron > .inner {
-  position: relative;
-  z-index: 4; }
 
 .jumbotron p {
   font-size: 14px;
   font-weight: 100;
-  width: 468px;
   margin-bottom: 50px;
   text-align: center; }
 
 .jumbotron h2 {
-  width: 468px;
   text-align: center; }
 
 /* Subscribe Form styling */
 .width100 {
-  width: 468px;
   color: white !important; }
 
 .form-control {
