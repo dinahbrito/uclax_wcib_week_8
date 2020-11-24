@@ -78,6 +78,19 @@ ul {
     font-weight: 400;
     color: #292534; }
 
+.learn {
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 35px; }
+  .learn:hover {
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+    text-decoration: none; }
+
 /* New Div styling */
 .new {
   padding-left: 145px;

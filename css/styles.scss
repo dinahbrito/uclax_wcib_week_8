@@ -82,7 +82,6 @@ padding-right: 85px;
     padding-right: 15px;
     }
   }
-  
 }
 .col-12 {
   &.cta {
@@ -95,7 +94,20 @@ padding-right: 85px;
     }
   }
 }
-
+.learn {
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 35px;
+    &:hover {
+      color: white;
+      font-size: 10px;
+      font-weight: 600;
+      border-bottom: 2px solid white;
+      padding-bottom: 4px;
+      text-decoration: none;
+    }
+}
 /* New Div styling */
 .new {
   padding-left: 145px;
