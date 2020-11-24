@@ -28,7 +28,16 @@ ul {
   font-weight: 200;
   padding: 20px;
 }
-
+.pl-5 {
+    padding-left: 5rem !important;
+  }
+.pr-5{
+    padding-right: 5rem !important;
+}
+.px-5 {
+  padding-right: 6rem !important;
+  padding-left: 6rem !important;
+}
 /* Navbar styling */
 .bg-custom {
   background-color: rgb(12, 179, 248);
@@ -79,7 +88,7 @@ ul {
     color: white;
   }
   .iphone {
-    margin-bottom: -50px;
+    margin-bottom: -35px;
     position: relative;
     z-index:4;
   }
@@ -87,13 +96,12 @@ ul {
 .col-md-4 {
 text-align: right;
 }
-.pull-right {
+.float-right {
 margin: 0 0 0 auto;
 padding-right: 85px;
 padding-top: 25px;
 }
-.col-md-8 {
-  padding-left: 95px;
+.hero-text {
   padding-top: 110px;
   p{
     max-width: 350px;
@@ -132,21 +140,18 @@ padding-top: 25px;
 }
 
 /* White bar styling*/
-.col-12 {
+.cta{
+  background-color: white;
   &.form-inline{
     vertical-align: middle;
   }
-  &.cta {
-    background-color: white;
-    padding-left: 95px;
-    height: 60px;
     h4{
       font-weight: 400;
       color: #292534;
-      padding-left: 30px;
       padding-top: 10px;
+      font-size: 13px;
+      letter-spacing: 1px;
     }
-  }
 }
 .btn-primary {
   border-radius: 25px;
@@ -276,12 +281,12 @@ padding-top: 25px;
     bottom: 0;
     left: 0;
     background-color: rgba(20,18,18,0.5);
-    z-index: 1;
+    z-index: 3;
 }
 
 .jumbotron > .inner {
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 .jumbotron{
   p{
@@ -322,9 +327,24 @@ padding-top: 25px;
 
 /* footer styling */
 footer {
-  background-color: green;
+  background-color: white;
   color: #242526;
-  &.description{
-    text-align: left;
-  }
+}
+.otherlinks{
+  color: #242526;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.description {
+    max-width: 300px;
+    line-height: 1.5;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: .08em;
+}
+.copyright {
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
