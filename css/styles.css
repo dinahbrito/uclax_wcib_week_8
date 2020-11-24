@@ -59,9 +59,9 @@ ul {
 
 .text-light.active {
   text-decoration: underline;
-  text-decoration-color: white; }
-  te
-.text-light.active:hover {
+  text-decoration-color: white;
+  color: white !important; }
+  .text-light.active:hover {
     color: white !important;
     text-decoration: none; }
 
