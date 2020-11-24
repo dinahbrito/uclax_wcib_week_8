@@ -66,6 +66,11 @@ ul {
   background-color: #0cb3f8;
   color: white; }
 
+.row .iphone {
+  margin-bottom: -50px;
+  position: relative;
+  z-index: 4; }
+
 .col-md-4 {
   text-align: right; }
 
@@ -264,4 +269,7 @@ ul {
 
 /* footer styling */
 footer {
-  background-color: yellow; }
+  background-color: green;
+  color: #242526; }
+  footer.description {
+    text-align: left; }

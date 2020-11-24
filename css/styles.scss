@@ -78,6 +78,11 @@ ul {
     background-color: rgb(12, 179, 248);
     color: white;
   }
+  .iphone {
+    margin-bottom: -50px;
+    position: relative;
+    z-index:4;
+  }
 }
 .col-md-4 {
 text-align: right;
@@ -317,5 +322,9 @@ padding-top: 25px;
 
 /* footer styling */
 footer {
-  background-color: yellow;
+  background-color: green;
+  color: #242526;
+  &.description{
+    text-align: left;
+  }
 }
