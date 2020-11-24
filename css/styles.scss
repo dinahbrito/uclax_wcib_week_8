@@ -52,6 +52,25 @@ ul {
 .pb-5{
     margin-bottom: 4rem !important;
 }
+.text-light {
+  &:hover {
+    color: white !important;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+    text-decoration-color: white;
+  }
+  &.active{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+    text-decoration-color: white;
+    &:hover {
+      color: white !important;
+      text-decoration: none;
+    }
+  }
+}
 
 /* Hero-Image styling */
 .row {
@@ -282,6 +301,7 @@ padding-top: 25px;
   border: none;
 }
 
+/* footer styling */
 footer {
   position: "relative";
 }
