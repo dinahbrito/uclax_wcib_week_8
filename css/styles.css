@@ -38,6 +38,13 @@ ul {
     font-weight: 600;
     font-size: 16px; }
 
+.px-md-4 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important; }
+
+.pb-5 {
+  margin-bottom: 4rem !important; }
+
 /* Hero-Image styling */
 .row.hero-image {
   background-color: #0cb3f8;
@@ -48,7 +55,8 @@ ul {
 
 .pull-right {
   margin: 0 0 0 auto;
-  padding-right: 85px; }
+  padding-right: 85px;
+  padding-top: 25px; }
 
 .col-md-8 {
   padding-left: 95px;
@@ -70,14 +78,6 @@ ul {
       vertical-align: sub;
       padding-right: 15px; }
 
-.col-12.cta {
-  background-color: white;
-  padding-top: 20px;
-  padding-left: 95px; }
-  .col-12.cta h4 {
-    font-weight: 400;
-    color: #292534; }
-
 .learn {
   color: white;
   font-size: 10px;
@@ -90,6 +90,31 @@ ul {
     border-bottom: 2px solid white;
     padding-bottom: 4px;
     text-decoration: none; }
+
+/* White bar styling*/
+.col-12.form-inline {
+  vertical-align: middle; }
+
+.col-12.cta {
+  background-color: white;
+  padding-left: 95px;
+  height: 60px; }
+  .col-12.cta h4 {
+    font-weight: 400;
+    color: #292534;
+    padding-left: 30px;
+    padding-top: 10px; }
+
+.btn-primary {
+  border-radius: 25px;
+  background: #0081ff;
+  font-weight: 400;
+  font-size: 9px;
+  color: white;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  box-shadow: 4px 7px 16px 0px rgba(27, 139, 249, 0.4); }
 
 /* New Div styling */
 .new {
